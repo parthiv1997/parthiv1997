@@ -48,7 +48,7 @@ const Mymoves: React.FC = () => {
         <h6 className='titleText'>My Moves</h6>
        <Shipping_Location fetchData={fetchData} />
        <Shipping_Info fetchData={fetchData} onClick={handleExpandChange} onChange={handleCheckChange}/>
-        <Disclaimer />
+        <Disclaimer expandIcon={expandIcon}/>
         {expandIcon ?<> <InventoryTitle />
         {fetchData.items !== null  ?
         (fetchData.items.rooms !== null && fetchData.items.rooms !== undefined && fetchData.items.rooms.length>0 ? 
