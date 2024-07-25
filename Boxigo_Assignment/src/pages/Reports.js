@@ -8,4 +8,4 @@ function Reports() {
   );
 }
 
-export default Get Quote;
+export default Get_Quote;
